@@ -69,19 +69,12 @@ router.post("/book", bookEvent as RequestHandler);
  *               items:
  *                 type: object
  *                 properties:
- *                   id:
- *                     type: string
- *                   name:
- *                     type: string
  *                   dateTime:
  *                     type: string
  *                     format: date-time
  *                   duration:
  *                     type: integer
- *                   location:
- *                     type: string
- *                   description:
- *                     type: string
+
  *       400:
  *         description: Bad request
  *       500:
